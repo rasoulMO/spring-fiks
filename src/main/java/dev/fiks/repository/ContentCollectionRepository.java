@@ -28,9 +28,14 @@ public class ContentCollectionRepository {
 		return contentList.stream().filter(c -> c.id().equals(id)).findFirst();
 	}
 
+	public Content save(Content content) {
+		contentList.add(content);
+		return content;
+	}
+
 	@PostConstruct
 	private void init() {
-		Content c = new Content(
+		Content content = new Content(
 				1,
 				"first",
 				"test",
@@ -41,7 +46,7 @@ public class ContentCollectionRepository {
 				""
 		);
 
-		contentList.add(c);
+		contentList.add(content);
 	}
 
 }
