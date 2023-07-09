@@ -1,4 +1,4 @@
-package dev.rasoul.fiks.model;
+package dev.fiks.model;
 
 import java.time.LocalDateTime;
 

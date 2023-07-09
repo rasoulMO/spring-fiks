@@ -1,4 +1,4 @@
-package dev.rasoul.fiks;
+package dev.fiks;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

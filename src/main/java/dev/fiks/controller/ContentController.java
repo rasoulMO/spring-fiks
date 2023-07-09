@@ -1,10 +1,11 @@
-package dev.rasoul.fiks.controller;
+package dev.fiks.controller;
 
-import dev.rasoul.fiks.model.Content;
-import dev.rasoul.fiks.repository.ContentCollectionRepository;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import dev.fiks.model.Content;
+import dev.fiks.repository.ContentCollectionRepository;
 
 import java.util.List;
 

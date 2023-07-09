@@ -1,4 +1,4 @@
-package dev.rasoul.fiks.model;
+package dev.fiks.model;
 
 public enum Status {
 	IDEA,
