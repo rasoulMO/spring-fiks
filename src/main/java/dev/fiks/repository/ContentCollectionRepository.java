@@ -38,6 +38,10 @@ public class ContentCollectionRepository {
 		return contentList.stream().anyMatch(c -> c.id().equals(id));
 	}
 
+	public void delete(Integer id) {
+		contentList.removeIf(c -> c.id().equals(id));
+	}
+
 	@PostConstruct
 	private void init() {
 		Content content = new Content(
